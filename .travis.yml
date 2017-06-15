@@ -1,0 +1,16 @@
+sudo: required
+
+language: php
+
+services:
+  - docker
+
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install curl
+  - docker build -t friendlyhello .
+  - docker run -p 4000:80 friendlyhello
+
+script:
+  - test.sh
+  
