@@ -10,6 +10,7 @@ before_install:
   - sudo apt-get install curl
   - docker build -t friendlyhello .
   - docker run -d -p 4000:80 friendlyhello
+  - ip addr # for confirmation. can be skipped
 
 script:
   - ./test.sh
