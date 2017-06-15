@@ -3,3 +3,9 @@
 [[https://travis-ci.org/VinceW/travis-ci-docker-example.svg?branch=master]]
 
 An example of an app running in a docker container in combination with travis-ci
+
+This example is create from content on:
+- https://docs.docker.com/get-started/
+- https://docs.travis-ci.com/user/docker/
+
+
